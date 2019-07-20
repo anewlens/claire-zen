@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Asap|Exo:800&display=swap');
+
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  --Dark: hsl(0, 0%, 13%);
+  --Neutral: #898989;
+  --Light: hsl(0, 0%, 87%);
+  --Blood: #7F0011;
+  --Sand: #FFAA55;
+  --Sky: #89FFFF;
+
+
+  font-family: 'Asap', sans-serif;
+}
+
+body {
+  background-color: var(--Dark);
+}

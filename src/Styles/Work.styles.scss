@@ -1,0 +1,100 @@
+.Work {
+    min-height: 100vh;
+    background-color: var(--Light);
+    color: var(--Dark);
+    
+    grid-column: 1 / 3;
+    
+    display: grid;
+    grid-template-columns: 1fr 3.25fr;
+
+    padding: 5rem 0;
+
+    &-content {
+        width: 65vw;
+        transition: all .25s;    
+        grid-column: 2 / 3;   
+    }
+    
+    &-item {
+        transition: all .25s;
+        
+        &-name {
+            cursor: pointer;
+            position: relative;
+            font-family: 'Exo', sans-serif;
+            font-size: 7rem;
+
+            &::after {
+                content: '';
+
+                position: absolute;
+                bottom: 0;
+                left: 0;
+
+                width: 0;
+                height: .5rem;
+                border-radius: 20rem;
+                
+                transition: all .25s ease-out;
+            }
+
+            &:hover::after {
+                width: 50%;
+                background-color: var(--Sand);
+                transform-origin: center;
+            }
+        }
+
+        &:not(:last-child) {
+            margin-bottom: 3rem;
+        }
+    }
+
+    &-paragraph {
+        columns: 20rem 2;
+        column-gap: 5rem;
+
+        font-size: 1.6rem;
+        line-height: 3.3rem;
+        width: 100%;
+        margin: 2rem 0 4rem 0;
+        
+        & a:hover {
+            color: var(--Sand);
+        }
+    }
+}
+
+.ItemDropDown {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    animation: FadeIn .5s ease-out;
+
+    a {
+        width:100%;
+    }
+
+        & .ItemImg {
+            width: 100%;
+            height: 40rem;
+            object-fit: cover;
+            margin: 1rem 0;
+        }
+}
+
+
+
+@keyframes FadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-1rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

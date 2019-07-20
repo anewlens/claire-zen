@@ -1,24 +1,23 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, {useState} from 'react';
+import './Styles/App.scss';
 
-function App() {
+import Nav from './Components/Nav'
+import About from './Components/About'
+import Work from './Components/Work'
+import Contact from './Components/Contact'
+
+const App = () => {
+
+  const [position, setPosition] = useState(window.pageYOffset)
+
+  document.addEventListener('scroll', () => setPosition(window.pageYOffset))
+  
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Nav position={position}/>
+      <About />
+      <Work />
+      <Contact />
     </div>
   );
 }

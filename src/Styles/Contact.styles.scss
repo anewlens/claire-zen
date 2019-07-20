@@ -1,0 +1,61 @@
+.Contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    grid-column: 2 / 3;
+
+    &-title {
+        font-family: 'Exo', sans-serif;
+        text-transform: uppercase;
+        font-size: 7rem;
+        margin-bottom: 5rem;
+    }
+
+    &-content {
+        width: 65vw;
+        
+        display: flex;
+        
+        font-size: 8rem;
+    }
+
+    &-link {
+
+
+        &:not(:last-child) {
+            margin-right: 10rem;
+        }
+    }
+
+}
+
+#instagram {
+    width: 8rem;
+    fill: var(--Blood);
+    transition: all .2s ease-out;
+
+    &:hover {
+        transform: scale(1.1);
+    }
+}
+
+#linkedin {
+    width: 8rem;
+    fill: var(--Sand);
+    transition: all .2s ease-out;
+
+    &:hover {
+        transform: scale(1.1);
+    }
+}
+
+#mail {
+    width: 8rem;
+    fill: var(--Sky);
+    transition: all .2s ease-out;
+
+    &:hover {
+        transform: scale(1.1);
+    }
+}

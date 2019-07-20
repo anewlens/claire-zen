@@ -1,0 +1,52 @@
+.About {
+    display: flex;
+    justify-content: space-between;
+    min-height: 100vh;
+
+    grid-column: 2 / 3;
+    &-content {
+        width: 65vw;
+
+        font-size: 10rem;
+    }
+
+    &-paragraph {
+        font-family: 'Exo', sans-serif;
+        text-transform: uppercase;
+        line-height: 10rem;
+
+        span {
+            background: linear-gradient(to left, var(--Blood), var(--Sand), var(--Sky));
+            background-size: cover;
+            -webkit-animation: Swirl 3s ease infinite;
+            animation: Swirl 3s ease infinite;
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            font-family: inherit;
+        }
+
+        a {
+            font-family: inherit;
+        }
+
+        &:not(:last-child) {
+            margin-bottom: 5rem;
+        }
+
+        & a:hover {
+            color: var(--Sand);
+        }
+    }
+}
+
+@-webkit-keyframes Swirl {
+    0%{background-position:0% 52%}
+    50%{background-position:100% 49%}
+    100%{background-position:0% 52%}
+}
+@keyframes Swirl {
+    0%{background-position:0% 52%}
+    50%{background-position:100% 49%}
+    100%{background-position:0% 52%}
+}

@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import '../Styles/About.styles.scss'
-import {ReactComponent as Plus} from '../SVG/add-solid.svg'
+import {ReactComponent as Plus} from '../SVG/add-outline.svg'
 import DropDown from './DropDown.About'
 
 const About = () => {

@@ -77,7 +77,7 @@
         display: flex;
         margin: 2rem 0 4rem 0;
         font-size: 1.6rem;
-        line-height: 3.3rem;
+        line-height: 2.6rem;
     }
 
     &-description {
@@ -91,7 +91,6 @@
 
         & .ItemImg {
             width: 100%;
-            object-fit: cover;
             margin: 1rem 0;
         }
 }

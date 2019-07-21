@@ -47,14 +47,21 @@
         width: 5rem;
         fill: var(--Neutral);
         margin-bottom: 3rem;
+
+        &:hover {
+            animation: spin 1s linear infinite forwards;
+        }
     }
 
     &-DropDown {
         margin-bottom :5rem;
         width: 65vw;
         font-size: 1.6rem;
+        line-height: 2.6rem;
         display: flex;
         justify-content: space-between;
+
+        animation: FadeIn .2s ease-out;
         
         & > * {
             margin-right: 5rem;
@@ -68,13 +75,16 @@
     }
 }
 
-@-webkit-keyframes Swirl {
-    0%{background-position:0% 52%}
-    50%{background-position:100% 49%}
-    100%{background-position:0% 52%}
-}
-@keyframes Swirl {
-    0%{background-position:0% 52%}
-    50%{background-position:100% 49%}
-    100%{background-position:0% 52%}
+@keyframes spin {
+    0% {
+        transform: rotate(0);
+    }
+
+    50% {
+        transform: rotate(180deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
 }

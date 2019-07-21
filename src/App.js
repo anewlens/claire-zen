@@ -20,7 +20,8 @@ const App = () => {
       <Separator image='desert 1.jpg'/>
       <Work />
       <Contact />
-      <Separator image='desert 2.jpg'/>
+      <Separator 
+        image='desert_4.jpg' />
     </div>
   );
 }

@@ -25,6 +25,11 @@
   background-attachment: fixed;
   background-position: center;
   overflow: hidden;
+
+  &:last-child {
+    background-position: top;
+    height: 65rem;
+  }
 }
 
 .Nav {

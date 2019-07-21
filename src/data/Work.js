@@ -24,7 +24,7 @@ const data = [
     {
         name: 'Create',
         leadImage: 'Create Header.png',
-        images: ['Create Emails.png', 'Create Image 1.png', 'Create Image 2.png', 'Create Image 3.png', 'Create Image 4.png', ],
+        images: ['Create Emails.png', 'Create Image 1.jpg', 'Create Image 2.jpg', 'Create Image 3.png', 'Create Image 4.png', ],
         text: 'This was our first theme fully executed digitally and onsite, promoting innovation and creativity within the financial technology sector as a bright, fresh future to grasp.',
         title: 'Money20/20 USA, 2018',
         Credits: [

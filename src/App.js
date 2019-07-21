@@ -19,9 +19,8 @@ const App = () => {
       <About />
       <Separator image='desert 1.jpg'/>
       <Work />
-      <Separator image='desert 2.jpg'/>
       <Contact />
-      <Separator image='desert 3.jpg'/>
+      <Separator image='desert 2.jpg'/>
     </div>
   );
 }

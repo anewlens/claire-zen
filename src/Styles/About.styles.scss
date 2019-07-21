@@ -1,11 +1,16 @@
 .About {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     min-height: 100vh;
+    width: 65vw;
+    padding: 7rem 5.2vw 7rem 0;
 
     grid-column: 2 / 3;
+
     &-content {
-        width: 65vw;
+        display: flex;
+        flex-direction: column;
+    
 
         font-size: 10rem;
     }
@@ -14,6 +19,7 @@
         font-family: 'Exo', sans-serif;
         text-transform: uppercase;
         line-height: 10rem;
+        margin-bottom: 3rem;
 
         span {
             background: linear-gradient(to left, var(--Blood), var(--Sand), var(--Sky));
@@ -30,13 +36,35 @@
             font-family: inherit;
         }
 
-        &:not(:last-child) {
-            margin-bottom: 5rem;
-        }
 
         & a:hover {
             color: var(--Sand);
         }
+    }
+
+    &-Button {
+        height: 5rem;
+        width: 5rem;
+        fill: var(--Neutral);
+        margin-bottom: 3rem;
+    }
+
+    &-DropDown {
+        margin-bottom :5rem;
+        width: 65vw;
+        font-size: 2rem;
+        display: flex;
+        
+        
+        & > * {
+            margin-right: 5rem;
+            flex: 1;
+        }
+    }
+
+    &-img {
+        width: 100%;
+        image-orientation: from-image;
     }
 }
 

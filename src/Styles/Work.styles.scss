@@ -73,6 +73,18 @@
     align-items: flex-start;
     animation: FadeIn .5s ease-out;
 
+    &-text {
+        display: flex;
+        margin: 2rem 0 4rem 0;
+        font-size: 1.6rem;
+        line-height: 3.3rem;
+    }
+
+    &-description {
+        width: 50%;
+        margin-right: 2rem;
+    }
+
     a {
         width:100%;
     }

@@ -1,94 +1,106 @@
 const data = [
     {
-        name: 'Journey to the Future of Money',
-        leadImage: 'raccoon-5.jpg',
-        images: ['raccoon-1.jpg', 'raccoon-2.jpg', 'raccoon-3.jpg', 'raccoon-4.jpg'],
-        text: [
-            'The raccoon (/rəˈkuːn/ or US: /ræˈkuːn/ (About this soundlisten), Procyon lotor), sometimes spelled racoon,[3] also known as the common raccoon,[4] North American raccoon,[5], northern raccoon,[6] or coon, is a medium-sized mammal native to North America. The raccoon is the largest of the procyonid family, having a body length of 40 to 70 cm (16 to 28 in) and a body weight of 5 to 26 kg (11 to 57 lb).[7] Its grayish coat mostly consists of dense underfur which insulates it against cold weather. Three of the raccoons most distinctive features are its extremely dexterous front paws, its facial mask, and its ringed tail, which are themes in the mythologies of the indigenous peoples of the Americas. Raccoons are noted for their intelligence, with studies showing that they are able to remember the solution to tasks for at least three years.[8] They are usually nocturnal and omnivorous, eating about 40% invertebrates, 33% plants, and 27% vertebrates.'
+        name: 'Journey',
+        leadImage: 'Journey Header.png',
+        images: ['Journey Emails.png'],
+        text: 'Inspired by the science fiction book Journey to the Center of the Earth, we are currently in the process of executing a storybook theme for the show look. This theme brings reminds the attendees of the adventure in financial innovation.',
+        title: 'Money20/20 USA, 2019-Ongoing',
+        Credits: [
+            'Designs by Claire Zen',
+            'Creative Direction by Stephen Lechner'
         ]
     },
     {
-        name: 'Work 2',
-        images: ['#'],
-        text: [
-            'This is the second Paragraph. What a boring paragraph!'
+        name: 'Revolution',
+        leadImage: 'Revolution Header.png',
+        images: ['Rev Image 1.jpg', 'Rev Image 2 Split.png', 'Rev Image 2a.JPG', 'Rev Image 2b.JPG', 'Rev Image 3.JPG'],
+        text: 'Taking a bolder stance in the current environment, our show look channeled grassroots movements’ need for change, connecting with startups and companies looking to help more than just the financial upper class.',
+        title: 'Money20/20 USA, 2018',
+        Credits: [
+            'Designs by Claire Zen',
+            'Creative Direction by Stephen Lechner'
         ]
     },
     {
-        name: 'Work 3',
-        images: ['#'],
-        text: [
-            'This is the third Paragraph. What a silly paragraph!'
+        name: 'Create',
+        leadImage: 'Create Header.png',
+        images: ['Create Emails.png', 'Create Image 1.png', 'Create Image 2.png', 'Create Image 3.png', 'Create Image 4.png', ],
+        text: 'This was our first theme fully executed digitally and onsite, promoting innovation and creativity within the financial technology sector as a bright, fresh future to grasp.',
+        title: 'Money20/20 USA, 2018',
+        Credits: [
+            'Designs by Claire Zen',
+            'Creative Direction by Stephen Lechner'
         ]
     },
     {
-        name: 'Work 4',
-        images: ['#'],
-        text: [
-            'This is the fourth Paragraph. What a dumb paragraph!'
+        name: 'Watching the Throne',
+        leadImage: 'Kanye Header.jpg',
+        images: ['Kanye Image.png'],
+        text: 'Desktop & phone wallpapers of Kanye West were commissioned as rewards for the launch of the podcast’s Patreon.',
+        title: 'Watching the Throne podcast, 2019',
+        Credits: ['Illustrations by Claire Zen']
+    },
+    {
+        name: 'Aurebesh',
+        leadImage: 'Aurebesh Header.png',
+        images: ['Aurebesh Image.png'],
+        text: 'Star Wars’ main alphabet exists in only one style. I wanted to expand this by creating two more styles based on the type used in the prequel and sequel trilogy.',
+        title: 'Peronsal, 2018',
+        Credits: [
+            'Prequel & Sequel Typefaces by Claire Zen',
+            'Original Typeface by David Occhino',
+            'Aurebesh Design by Lucasfilm'
         ]
     },
     {
-        name: 'Work 5',
-        images: ['#'],
-        text: [
-            'This is the fourth Paragraph. What a dumb paragraph!'
+        name: 'Cira Font',
+        leadImage: 'Cira Font Header.png',
+        images: ['Cira Image 1.png', 'Cira Image 2.png'],
+        text: "In between other projects and my job, I tinker at this typeface I’ve developed using fractions and multiples of 3 to calculate all dimensions of the characters.",
+        title: 'Personal, 2017-Ongoing',
+        Credits: ['Design by Claire Zen']
+    },
+    {
+        name: 'Coach Fall Ready-To-Wear',
+        leadImage: 'coach.png',
+        images: [],
+        text: 'Patches were developed by our team for the runway show as well as concept and test production in various shapes, sizes, and colorways.',
+        title: 'New York Embroidery Studio, 2016',
+        Credits: [
+            'Patches by Claire Zen',
+            'Creative Direction by Coach',
+            'Photo by NowFashion'
         ]
     },
     {
-        name: 'Work 6',
-        images: ['#'],
-        text: [
-            'This is the fourth Paragraph. What a dumb paragraph!'
+        name: 'The Duel',
+        leadImage: 'duel header.jpg',
+        images: ['duel2.jpg', 'duel3.jpg'],
+        text: "Tasked to develop a common story with common shapes, I chose to tell a classic German fairy tale. The design was inspired by the way Super Mario's bright world reinvented the way the classic princess story is told.",
+        title: 'VCU Library Icon Story Project, 2014',
+        Credits: [
+            'Design and Printing by Claire Zen',
+            'Story by Heinrich Von Kleist'
         ]
     },
     {
-        name: 'Work 7',
-        images: ['#'],
-        text: [
-            'This is the fourth Paragraph. What a dumb paragraph!'
-        ]
+        name: 'frank&i',
+        leadImage: 'frank header.jpg',
+        images: ['frank1.jpg', 'frank2.jpg', 'frank3.jpg'],
+        text: "Created as a visual diary, the zine catalogues the journey between a car and its owner in a playful, nostalgic way.",
+        title: 'Personal, 2014',
+        Credits: ['Design, Photography and Printing by Claire Zen']
     },
     {
-        name: 'Work 8',
-        images: ['#'],
-        text: [
-            'This is the fourth Paragraph. What a dumb paragraph!'
-        ]
-    },
-    {
-        name: 'Work 9',
-        images: ['#'],
-        text: [
-            'This is the fourth Paragraph. What a dumb paragraph!'
-        ]
-    },
-    {
-        name: 'Work 10',
-        images: ['#'],
-        text: [
-            'This is the fourth Paragraph. What a dumb paragraph!'
-        ]
-    },
-    {
-        name: 'Work 11',
-        images: ['#'],
-        text: [
-            'This is the fourth Paragraph. What a dumb paragraph!'
-        ]
-    },
-    {
-        name: 'Work 12',
-        images: ['#'],
-        text: [
-            'This is the fourth Paragraph. What a dumb paragraph!'
-        ]
-    },
-    {
-        name: 'Work 13',
-        images: ['#'],
-        text: [
-            'This is the fourth Paragraph. What a dumb paragraph!'
+        name: 'The Nature Aesthetic',
+        leadImage: 'nature header.jpg',
+        images: ['nature image 1.jpg', 'nature image 1.jpg', 'nature image 2.jpg'],
+        text: "This informational zine focuses on the natural design and artistic values of the woodland and marshes surrounding the conservation center.",
+        title: 'Rice Rivers Center, 2014',
+        Credits: [
+            'Design, Photographs, and Text by Claire Zen',
+            '"Pine Trees" by Hasegawa Tohaku',
+            'Excerpt from White by Kenya Hara'
         ]
     }
 ]

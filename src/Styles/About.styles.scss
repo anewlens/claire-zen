@@ -54,7 +54,7 @@
         width: 65vw;
         font-size: 2rem;
         display: flex;
-        
+        justify-content: space-between;
         
         & > * {
             margin-right: 5rem;
@@ -63,8 +63,8 @@
     }
 
     &-img {
-        width: 100%;
-        image-orientation: from-image;
+        transform: rotate(180deg);
+        width: 20%;
     }
 }
 

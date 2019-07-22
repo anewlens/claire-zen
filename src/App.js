@@ -7,6 +7,8 @@ import About from './Components/About'
 import Work from './Components/Work'
 import Contact from './Components/Contact'
 
+import './Styles/MediaQueries.scss'
+
 const App = () => {
 
   const [position, setPosition] = useState(window.pageYOffset)

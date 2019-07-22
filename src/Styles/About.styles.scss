@@ -12,13 +12,13 @@
         flex-direction: column;
     
 
-        font-size: 10rem;
+        font-size: var(--Large-text);
     }
 
     &-paragraph {
         font-family: 'Exo', sans-serif;
         text-transform: uppercase;
-        line-height: 10rem;
+        line-height: var(--Large-text);
         margin-bottom: 3rem;
 
         span {
@@ -56,7 +56,7 @@
     &-DropDown {
         margin-bottom :5rem;
         width: 65vw;
-        font-size: 1.6rem;
+        font-size: var(--Small-text);
         line-height: 2.6rem;
         display: flex;
         justify-content: space-between;

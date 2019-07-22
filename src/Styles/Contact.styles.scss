@@ -8,7 +8,7 @@
     &-title {
         font-family: 'Exo', sans-serif;
         text-transform: uppercase;
-        font-size: 7rem;
+        font-size: var(--Medium-text);
         margin-bottom: 5rem;
     }
 
@@ -16,8 +16,6 @@
         width: 65vw;
         
         display: flex;
-        
-        font-size: 8rem;
     }
 
     &-link {

@@ -23,7 +23,7 @@
             cursor: pointer;
             position: relative;
             font-family: 'Exo', sans-serif;
-            font-size: 7rem;
+            font-size: var(--Medium-text);
 
             &::after {
                 content: '';
@@ -55,7 +55,7 @@
         columns: 20rem 2;
         column-gap: 5rem;
 
-        font-size: 1.6rem;
+        font-size: var(--Small-text);
         line-height: 3.3rem;
         width: 100%;
         margin: 2rem 0 4rem 0;
@@ -76,7 +76,7 @@
     &-text {
         display: flex;
         margin: 2rem 0 4rem 0;
-        font-size: 1.6rem;
+        font-size: var(--Small-text);
         line-height: 2.6rem;
     }
 

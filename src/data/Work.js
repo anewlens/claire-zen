@@ -94,7 +94,7 @@ const data = [
     {
         name: 'The Nature Aesthetic',
         leadImage: 'nature header.jpg',
-        images: ['nature image 1.jpg', 'nature image 1.jpg', 'nature image 2.jpg'],
+        images: ['nature image 1.jpg', 'nature image 2.jpg'],
         text: "This informational zine focuses on the natural design and artistic values of the woodland and marshes surrounding the conservation center.",
         title: 'Rice Rivers Center, 2014',
         Credits: [

@@ -13,7 +13,7 @@ const data = [
     {
         name: 'Revolution',
         leadImage: 'Revolution Header.png',
-        images: ['Rev Image 1.jpg', 'Rev Image 2 Split.png', 'Rev Image 2a.JPG', 'Rev Image 2b.jpg', 'Rev Image 3.JPG'],
+        images: ['Rev Image 1.jpg', 'Rev Image 2 Split.png', 'Rev Image 3.JPG'],
         text: 'Taking a bolder stance in the current environment, our show look channeled grassroots movements’ need for change, connecting with startups and companies looking to help more than just the financial upper class.',
         title: 'Money20/20 USA, 2018',
         Credits: [

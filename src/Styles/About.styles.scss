@@ -69,10 +69,14 @@
         }
     }
 
-    &-img {
-        transform: rotate(180deg);
+    & a {
         width: 20%;
         height: 100%;
+    }
+
+    &-img {
+        // transform: rotate(180deg);
+        max-width: 20vw;
         object-fit: contain;
     }
 }

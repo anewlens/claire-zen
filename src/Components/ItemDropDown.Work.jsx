@@ -3,10 +3,7 @@ import ImageLoader from './ImageLoader'
 
 const ItemDropDown = ({item}) => (
     <div className="ItemDropDown">
-        <a href={`${window.location.origin}/images/${item.leadImage}`}>
-            <ImageLoader className='ItemImg' image={item.leadImage}/>
-        </a>
-        
+        <ImageLoader className='ItemImg' image={item.leadImage}/>
         <div className="ItemDropDown-text">
             <p className='ItemDropDown-description'>{item.text}</p>
             <div className="ItemDropDown-right">
@@ -14,7 +11,7 @@ const ItemDropDown = ({item}) => (
                 {item.Credits.map(credit => <p className='ItemDropDown-credits'>{credit}</p>)}
             </div>
         </div>
-            {item.images.map(image => <a href={`${window.location.origin}/images/${image}`}><img className='ItemImg' src={`${window.location.origin}/images/${image}`} alt={image} /></a> )}
+            {item.images.map(image => <ImageLoader className='ItemImg' image={image}/> )}
 
     </div>
 )
